@@ -1,0 +1,210 @@
+body {
+	height: 100%;
+	font-family: "GothaPro", Arial, sans-serif;
+    font-size: 10px;
+}
+
+header {
+	position: relative;
+	height: 8em;
+	background: #008fcc;
+}
+
+.container {
+    width: 1840px;
+}
+
+a {
+	color: white;
+
+}
+
+.logo {	
+	float: left;
+}
+
+.header-logo {
+	width: 100%;
+    height: 19.2em;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.24);
+    background: white;
+	border-radius: 100%;
+	border: 2px solid #008fcc;
+}
+
+.navbar {
+	display: inline-block;
+}
+
+.nav-link:hover {
+	border-bottom: 3px solid #fff;
+	color: #fff;
+}
+
+.button {
+	
+	margin-top: 10px;
+    float: right;
+}
+
+.button button {
+	font-size: 14px;
+	height: 30px;
+	color: #fff;
+	background-color: #96c93d;
+}
+
+.button button:hover {
+	color: #fff;
+	background: #abd463;
+}
+
+.button a {
+	text-decoration: none;
+}
+
+.button a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav {
+	text-align: center;
+	font-size: 12px;
+	width: 100%;
+    height: 50px;
+    box-shadow: 0px 0px 10px -4px #678898;
+}
+
+.content {
+	height: 100%;
+	width: 100%;
+}
+
+.menuleft {
+	right: 200px;
+	top: 120px;
+	overflow: scroll;
+	height: 450px;
+
+}
+
+.nav-links {
+	color:black;
+	font-size: 14px;
+	padding: 15px;
+}
+
+.menuright {
+	right: 100px;
+	top: 30px;
+	overflow: scroll;
+	height: 541px;
+}
+
+.sort {
+	color: black;
+	margin-right: 5px; 
+	padding: 5px;
+}
+
+.sort:hover {
+	background: black;
+	color: white;
+}
+
+footer {
+	position: relative;
+	padding: 55px 0;
+	height: 100%;
+    width: 100%;
+    background: #008fcc;
+}
+
+
+.foot_logo {
+	margin-top: -25px;
+	float: left;
+}
+
+.prava {
+	padding: 25px 0;
+    font-size: 1.6em;
+    color: white;
+}
+
+.foot_content {
+	height: 300px;
+}
+
+.icon {
+	width: 60px;
+    margin-right:10px;
+	border-radius: 100%;
+}
+
+.menu {
+	float: right;
+	font-size: 16px;
+}
+
+.foot-menu {
+	position: absolute;
+	bottom: 95px;
+	right: 130px;
+}
+
+.iconss {
+	width: 50px;
+}
+
+.search {
+	float: right;
+	padding: 10px;
+}
+
+.form-search {
+	width: 150px;
+	height: 30px;
+	background: none;
+	border: 3px solid white;
+	font-size: 16px;
+	color: white;
+}
+
+.foot {
+	float: right;
+	margin: 0 30px;
+}
+
+/*Кнопка ХЗ*/
+
+#toTop {
+	display: inline;
+
+}
+
+#toTopHover {
+	opacity: 1;
+}
+
+.toTop-text {
+	border-radius: 20%;
+	width: 51px;
+	height: 40px;
+	padding: 5px; 
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #fff;
+	border:2px solid #fff;
+	background:none;
+	text-align: center;
+}
+
+.toTop-text:hover {
+  background-color: #fff;
+  color: #000;
+}
