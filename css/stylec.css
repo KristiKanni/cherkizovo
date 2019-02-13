@@ -16,7 +16,6 @@ header {
 
 a {
 	color: white;
-
 }
 
 .logo {	
@@ -41,8 +40,44 @@ a {
 	color: #fff;
 }
 
+/* ВЫСПЛЫВАЮЩЕЕ МЕНЮ */
+.submenu {
+	position: absolute;
+	top: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s ease-in-out;
+	z-index: 1050;
+	width: 100%;
+}
+
+header li {
+	height: 30px;
+	font-size: 11px;
+}
+
+header .submenu {
+	background: #0289c3;
+	width: 250px;
+	list-style: none;
+	padding-top: 15px;
+	padding-left: 20px;
+	font-size: 13px;
+}
+
+header ul li:hover .submenu {
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu li a:hover {
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+}
+/*===================*/
+
 .button {
-	
 	margin-top: 10px;
     float: right;
 }
@@ -76,29 +111,37 @@ nav {
     box-shadow: 0px 0px 10px -4px #678898;
 }
 
+main .menuleft li {
+	border-bottom: 1px solid #a6b0b46b;
+	margin-bottom: 15px;
+}
+
+main .menuleft a {
+	text-decoration: none;
+}
+
 .content {
 	height: 100%;
 	width: 100%;
 }
 
 .menuleft {
-	right: 200px;
+	right: 150px;
 	top: 120px;
-	overflow: scroll;
+	overflow-y: scroll;
 	height: 450px;
-
 }
 
 .nav-links {
+
 	color:black;
 	font-size: 14px;
-	padding: 15px;
 }
 
 .menuright {
 	right: 100px;
 	top: 30px;
-	overflow: scroll;
+	overflow-y: scroll;
 	height: 541px;
 }
 
@@ -109,7 +152,7 @@ nav {
 }
 
 .sort:hover {
-	background: black;
+	background: #0289c3;
 	color: white;
 }
 
@@ -177,11 +220,8 @@ footer {
 	margin: 0 30px;
 }
 
-/*Кнопка ХЗ*/
-
 #toTop {
 	display: inline;
-
 }
 
 #toTopHover {
