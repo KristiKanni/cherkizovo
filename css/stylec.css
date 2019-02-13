@@ -103,6 +103,17 @@ header ul li:hover .submenu {
 	text-decoration: none;
 }
 
+.sort {
+	top: 60px;
+	right: 80px;
+	border-radius: 2%;
+	background: #a6b0b46b;
+	height: 29px;
+	width: 100%;
+	padding: 4px;
+    font-size: 12px;
+}
+
 nav {
 	text-align: center;
 	font-size: 12px;
@@ -121,7 +132,7 @@ main .menuleft a {
 }
 
 .content {
-	height: 100%;
+	height: 600px;
 	width: 100%;
 }
 
@@ -139,19 +150,21 @@ main .menuleft a {
 }
 
 .menuright {
-	right: 100px;
-	top: 30px;
+
+	right: -250px;
+	top: -380px;
 	overflow-y: scroll;
-	height: 541px;
+	height: 450px;
 }
 
-.sort {
+.sort-name {
+
 	color: black;
 	margin-right: 5px; 
 	padding: 5px;
 }
 
-.sort:hover {
+.sort-name:hover {
 	background: #0289c3;
 	color: white;
 }
